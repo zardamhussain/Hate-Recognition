@@ -1,2 +1,2 @@
 appwrite
-scikit-learn==1.4.2
+scikit-learn

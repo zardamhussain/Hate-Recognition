@@ -1,10 +1,10 @@
 import pickle
 import os
 
-__dirname = os.path.dirname(os.path.abspath(__file__))
+# __dirname = os.path.dirname(os.path.abspath(__file__))
 
-model = pickle.load(open(os.path.join(__dirname, 'hateClassify.pkl'), 'rb'))
-vector = pickle.load(open(os.path.join(__dirname, 'vectorized.pkl', 'rb')))
+# model = pickle.load(open(os.path.join(__dirname, 'hateClassify.pkl'), 'rb'))
+# vector = pickle.load(open(os.path.join(__dirname, 'vectorized.pkl', 'rb')))
 
 def main(context):    
 
